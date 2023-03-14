@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-// import './tailwind.css';
-
 function Calculator() {
   const [result, setResult] = useState('');
 
