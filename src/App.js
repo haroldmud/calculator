@@ -25,11 +25,10 @@ function Calculator() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-200">
       <div className="w-80 bg-white rounded-lg shadow-lg p-4">
-        <input
-          type="text"
-          className="w-full bg-gray-100 rounded-lg p-2 mb-2"
-          value={result}
-        />
+        
+        <div className="w-full bg-gray-100 rounded-lg p-2 mb-2 h-8 flex flex-col justify-center">
+          <p>{result}</p>
+        </div>
         <div className="grid grid-cols-4 gap-2">
           <button
             className="bg-gray-300 hover:bg-gray-400 rounded-lg p-2"
